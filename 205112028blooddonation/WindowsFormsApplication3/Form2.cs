@@ -12,7 +12,7 @@ namespace WindowsFormsApplication3
 
     public partial class Form2 : Form
     {
-
+        string str;
         OleDbConnection con = new OleDbConnection();
         OleDbCommand com = new OleDbCommand();
         OleDbDataReader dr;
@@ -23,18 +23,18 @@ namespace WindowsFormsApplication3
 
         private void Form2_Load(object sender, EventArgs e)
         {
-             con.ConnectionString = "PROVIDER=MSDAORA; USER ID=system; PASSWORD=12345; Unicode=true;";
+            con.ConnectionString = "Provider=OraOLEDB.Oracle.1;Password=User201;Persist Security Info=True;User ID=mca1228;Data Source=nitt;";
              try
              {
                  con.Open();
                  if (Convert.ToBoolean(con.State))
                  {
-                     //MessageBox.Show("Connection Success");
+                     MessageBox.Show("Connection Success");
                  }
              }
              catch
              {
-                 //MessageBox.Show("Connection Failed");
+                 MessageBox.Show("Connection Failed");
              }
         }
 
@@ -75,6 +75,7 @@ namespace WindowsFormsApplication3
                 MessageBox.Show("Plzzz insert all entries ");
             }
 
+
         }
 
         private void HOME_Click(object sender, EventArgs e)
@@ -83,6 +84,11 @@ namespace WindowsFormsApplication3
             c.Show();
             Hide();
             
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
  
     }

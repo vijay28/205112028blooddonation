@@ -7,10 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Data.OleDb;
+
 namespace WindowsFormsApplication3
 {
     public partial class Form3 : Form
     {
+       
         public Form3()
         {
             InitializeComponent();
@@ -42,6 +44,23 @@ namespace WindowsFormsApplication3
            Hide();
 
 
+
+        }
+
+       
+
+        private void CHOICE_Click(object sender, EventArgs e)
+        {
+
+        }
+
+     
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            Form8 z = new Form8();
+            z.Show();
+            Hide();
 
         }
     }

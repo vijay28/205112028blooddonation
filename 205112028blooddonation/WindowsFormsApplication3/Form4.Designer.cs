@@ -179,7 +179,7 @@
             // 
             this.SUBMIT.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SUBMIT.ForeColor = System.Drawing.Color.Blue;
-            this.SUBMIT.Location = new System.Drawing.Point(330, 581);
+            this.SUBMIT.Location = new System.Drawing.Point(314, 590);
             this.SUBMIT.Name = "SUBMIT";
             this.SUBMIT.Size = new System.Drawing.Size(166, 39);
             this.SUBMIT.TabIndex = 27;
@@ -219,7 +219,8 @@
             // 
             // HOME
             // 
-            this.HOME.Location = new System.Drawing.Point(32, 22);
+            this.HOME.ForeColor = System.Drawing.Color.Blue;
+            this.HOME.Location = new System.Drawing.Point(32, 20);
             this.HOME.Name = "HOME";
             this.HOME.Size = new System.Drawing.Size(75, 23);
             this.HOME.TabIndex = 29;
@@ -231,7 +232,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(769, 652);
+            this.ClientSize = new System.Drawing.Size(817, 702);
             this.Controls.Add(this.HOME);
             this.Controls.Add(this.BGROUP);
             this.Controls.Add(this.SUBMIT);

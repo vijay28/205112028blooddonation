@@ -170,7 +170,7 @@
             // 
             // EMAIL
             // 
-            this.EMAIL.Location = new System.Drawing.Point(348, 494);
+            this.EMAIL.Location = new System.Drawing.Point(347, 494);
             this.EMAIL.Multiline = true;
             this.EMAIL.Name = "EMAIL";
             this.EMAIL.Size = new System.Drawing.Size(254, 47);
@@ -192,7 +192,7 @@
             // 
             this.SUBMIT.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SUBMIT.ForeColor = System.Drawing.Color.Blue;
-            this.SUBMIT.Location = new System.Drawing.Point(344, 613);
+            this.SUBMIT.Location = new System.Drawing.Point(305, 623);
             this.SUBMIT.Name = "SUBMIT";
             this.SUBMIT.Size = new System.Drawing.Size(166, 39);
             this.SUBMIT.TabIndex = 22;
@@ -222,9 +222,10 @@
             // 
             // HOME
             // 
+            this.HOME.ForeColor = System.Drawing.Color.Blue;
             this.HOME.Location = new System.Drawing.Point(12, 12);
             this.HOME.Name = "HOME";
-            this.HOME.Size = new System.Drawing.Size(75, 23);
+            this.HOME.Size = new System.Drawing.Size(82, 23);
             this.HOME.TabIndex = 24;
             this.HOME.Text = "HOME";
             this.HOME.UseVisualStyleBackColor = true;

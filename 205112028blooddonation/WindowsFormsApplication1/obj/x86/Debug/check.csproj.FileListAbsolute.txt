@@ -1,0 +1,5 @@
+C:\Users\vijay\Documents\Visual Studio 2010\Projects\WindowsFormsApplication3\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\vijay\Documents\Visual Studio 2010\Projects\WindowsFormsApplication3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\vijay\Documents\Visual Studio 2010\Projects\WindowsFormsApplication3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\vijay\Documents\Visual Studio 2010\Projects\WindowsFormsApplication3\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\vijay\Documents\Visual Studio 2010\Projects\WindowsFormsApplication3\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
